@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 		line++;
 		if (read > 0)
 		{
-			m_execute(data_ct, &head, line, f_ptr);
+			m_execute(&head, data_ct, line, f_ptr);
 		}
 		free(data_ct);
 	}
