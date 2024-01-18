@@ -17,7 +17,7 @@ void m_mul(stack_t **head, unsigned int line)
 	}
 	if (i < 2)
 	{
-		fprintf(stderr, "L%d: can't mul, stack too short\n", c);
+		fprintf(stderr, "L%d: can't mul, stack too short\n", line);
 		fclose(transpInfo.f_ptr);
 		free(transpInfo.data_ct);
 		free_stack(*head);
